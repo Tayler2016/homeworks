@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&subset=cyrillic');
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+header{
+	background-color: #000000;
+	height: 80px;
+}
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+nav{
+	display: block;
+}
+nav ul{
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+nav ul>li{
+	display: block;
+	padding: 10px 0px;	
+}
+nav ul>li a{	
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: 'Press Start 2P', cursive;
+}
+nav ul>li a:hover{	
+	color: red;	
+}
+nav.nav_pages{
+	display: block;
+}
+nav.nav_pages ul{
+	width: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+nav.nav_pages ul>li{
+	display: inline-block;
+	padding: 10px 10px;	
+}
+nav.nav_pages ul>li a{	
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: 'Press Start 2P', cursive;
+}
+nav.nav_pages ul>li a:hover{	
+	color: red;	
+}
+.block1{
+	width: 780px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	width: 150px;
+}
+.logo img{
+	width: 100px;
+}
+.logo_text{
+	display: inline-block;
+	width: 600px;
+	padding: 10px 0px;
+}
+.logo_text h1{
+	display: inline-block;
+	margin: 0px;
+	padding: 0;
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 26px;
+}
+.logo_text h2{
+	display: inline-block;
+	margin: 0px;
+	padding: 0;
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+}
+.main_bg{
+	background-image: url(../images/bg.jpg);
+	padding: 100px 0px;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.pages_bg{
+	background: black;
+	padding: 100px 0px;
+	height: 100%;
+}
+.main_header{
+	position: relative;
+	background: rgba(0,0,0,1);
+	padding: 30px;
+	width: 500px;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: 70px;
+	border: 6px double white;
+}
+.l_gallery{
+	padding: 20px;
+	background: #333;
+	border: 8px double white;
+}
+.l_gallery img{
+	width: 100%;
+	position: relative;
+	transition: 1s ease;
+}
+.l_gallery img:hover{
+	transform: scale(1.2);
+	z-index: 5;
+}
+.g_col{
+	position: relative;
+	width: 50%;
+	float: left;
+	min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: block;
+}
+.row{	
+	box-sizing: border-box;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+	background: black;
+	margin: 0;
+	padding: 20px;
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+}
+.contacts_box{
+	border: 8px double white;
+	display: table;
+	color: white;
+	padding: 50px;
+	margin: 0 auto;
+}
+.contacts_box h1{
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 2;
+	font-family: 'Press Start 2P', cursive;
+}
