@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-<header>
+	<header>
 		<div class="container">
 			<div class="block1">
 				<div class="logo">

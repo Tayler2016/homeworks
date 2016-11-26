@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-<header>
+	<header>
 		<div class="container">
 			<div class="block1">
 				<div class="logo">
@@ -16,12 +16,12 @@
 		<div class="container">
 			<div class="main_header">
 				<nav>
-				<ul>
-					<li><a href="index.php">Главная</a></li>
-					<li><a href="gallery.php">Галерея</a></li>
-					<li><a href="contacts.php">Контакты</a></li>
-				</ul>
-			</nav>	
+					<ul>
+						<li><a href="index.php">Главная</a></li>
+						<li><a href="gallery.php">Галерея</a></li>
+						<li><a href="contacts.php">Контакты</a></li>
+					</ul>
+				</nav>	
 			</div>
 		</div>
 	</main>
